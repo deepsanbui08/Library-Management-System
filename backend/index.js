@@ -11,22 +11,23 @@ const home = require("./routes/home.js")
 const createDefaultAdmin = require("./utils/createAdmin.js")
 require('./config/db.js')
 
-const allowedOrigins = [
-  "http://localhost:5173",
-  "https://library-management-app-karan.vercel.app",
-];
+// const allowedOrigins = [
+//   "http://localhost:5173",
+//   "https://library-management-app-karan.vercel.app",
+// ];
 
-app.use(express.json()); // Parse JSON
-app.use(cors({
-  origin: function (origin, callback) {
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
-    }
-  },
-  credentials: true,
-}));
+// app.use(express.json()); // Parse JSON
+// app.use(cors({
+//   origin: function (origin, callback) {
+//     if (!origin || allowedOrigins.includes(origin)) {
+//       callback(null, true);
+//     } else {
+//       callback(new Error('Not allowed by CORS'));
+//     }
+//   },
+//   credentials: true,
+// }));
+app.use(cors());
 app.use("/users",users);
 app.use("/books",books);
 app.use("/admin",admin);
