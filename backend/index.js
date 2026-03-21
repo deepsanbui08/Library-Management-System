@@ -16,7 +16,7 @@ require('./config/db.js')
 //   "https://library-management-app-karan.vercel.app",
 // ];
 
-// app.use(express.json()); // Parse JSON
+app.use(express.json()); // Parse JSON
 // app.use(cors({
 //   origin: function (origin, callback) {
 //     if (!origin || allowedOrigins.includes(origin)) {
