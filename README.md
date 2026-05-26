@@ -6,7 +6,7 @@ A full-featured Library Management System built on the **MERN stack** (MongoDB, 
 
 ## 🌐 Live Demo
 
-👉 **[library-management-app-karan.vercel.app](https://library-management-app-karan.vercel.app/)**
+👉 **[library-management-app-karan.vercel.app](https://library-management-system-fro-git-bfc01c-deepsanbui08s-projects.vercel.app/)**
 
 ### 🔑 Test Credentials
 
