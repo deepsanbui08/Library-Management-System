@@ -131,8 +131,4 @@ npm run dev
 
 ---
 
-## 📬 Contact
 
-Have questions or want to connect? Reach out through any of the platforms below.
-
-> Built with ❤️ using the MERN stack.
